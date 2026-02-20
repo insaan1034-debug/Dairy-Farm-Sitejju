@@ -9,7 +9,7 @@ async function seedDatabase() {
   if (existingProducts.length === 0) {
     await storage.createProduct({
       name: "Purvi Fresh Paneer",
-      description: "Premium quality cottage cheese, preservative-free and chemical-free. Made from locally sourced fresh milk.",
+      description: "Premium quality cottage cheese from Birtamode, Jhapa. Preservative-free and chemical-free, made from locally sourced fresh milk.",
       category: "Paneer",
       price: "15.00",
       imageUrl: "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80",
@@ -17,7 +17,7 @@ async function seedDatabase() {
     
     await storage.createProduct({
       name: "Purvi Fresh Ghee",
-      description: "Traditional clarified butter made with all-natural ingredients. Rich in taste and nutrition.",
+      description: "Traditional clarified butter from Shree Shyam Dairy. All-natural, rich in taste and nutrition, sourced from Nepali farmers.",
       category: "Ghee",
       price: "25.00",
       imageUrl: "https://images.unsplash.com/photo-1589134732653-a7cefb7936a7?auto=format&fit=crop&q=80",
@@ -25,7 +25,7 @@ async function seedDatabase() {
 
     await storage.createProduct({
       name: "Purvi Fresh Pasteurized Milk",
-      description: "Freshly sourced from Nepali farmers, our milk is pasteurized to ensure safety while retaining nutrition.",
+      description: "Fresh milk from the heart of Jhapa. Pasteurized for safety while retaining its natural creamy goodness.",
       category: "Milk",
       price: "1.50",
       imageUrl: "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80",
@@ -33,7 +33,7 @@ async function seedDatabase() {
 
     await storage.createProduct({
       name: "Purvi Fresh Khoa",
-      description: "Thickened milk solids, perfect for making traditional sweets. No preservatives added.",
+      description: "Thickened milk solids for authentic Nepali sweets. Pure and natural with no added chemicals.",
       category: "Khoa",
       price: "18.00",
       imageUrl: "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80",
@@ -41,7 +41,7 @@ async function seedDatabase() {
 
     await storage.createProduct({
       name: "Purvi Fresh Chenna",
-      description: "Fresh cheese solids made from high-quality cow milk. Essential for authentic dessert recipes.",
+      description: "Fresh cheese solids made from high-quality cow milk in Birtamode. Essential for premium desserts.",
       category: "Chenna",
       price: "12.00",
       imageUrl: "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?auto=format&fit=crop&q=80",

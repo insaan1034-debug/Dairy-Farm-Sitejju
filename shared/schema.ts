@@ -7,7 +7,7 @@ export const products = pgTable("products", {
   id: serial("id").primaryKey(),
   name: text("name").notNull(),
   description: text("description").notNull(),
-  category: text("category").notNull(), // Paneer, Ghee, Milk, etc.
+  category: text("category").notNull(), // Paneer, Ghee, Milk, Khoa, Chenna
   price: numeric("price", { precision: 10, scale: 2 }).notNull(),
   imageUrl: text("image_url").notNull(),
 });
